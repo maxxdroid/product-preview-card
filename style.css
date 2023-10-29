@@ -69,7 +69,28 @@
     font-size: .875rem;
     background-color: var(--clr-secondary-200);
 
+    /* Just for this project, to center */
+
     display: grid;
     min-height: 100vh;
     place-content: center;
+    margin: 1rem;
+  }
+
+  .flex-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .product {
+    background-color: var(--clr-neutral-100);
+    border-radius: 2rem;
+  }
+
+  .attribution{
+    position: fixed;
+  	bottom: 0;
+  
+  	/* margin-bottom: 2%; */
   }
